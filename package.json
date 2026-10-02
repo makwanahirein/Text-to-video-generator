@@ -1,10 +1,10 @@
 {
-  "name": "short-video-maker",
+  "name": "text-to-video-generator",
   "version": "1.3.4",
-  "description": "Creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API.",
+  "description": "Text to Video Generator — creates short videos for TikTok, Instagram Reels, and YouTube Shorts using the Model Context Protocol (MCP) and a REST API.",
   "main": "index.js",
-  "bugs": "https://github.com/gyoridavid/short-video-maker/issues",
-  "homepage": "https://github.com/gyoridavid/short-video-maker",
+  "bugs": "https://github.com/makwanahirein/Text-to-video-generator/issues",
+  "homepage": "https://github.com/makwanahirein/Text-to-video-generator",
   "scripts": {
     "build": "rimraf dist && tsc --project tsconfig.build.json && vite build",
     "dev": "vite build --watch | node --watch -r ts-node/register src/index.ts ",
@@ -20,7 +20,7 @@
     "ui:preview": "vite preview"
   },
   "bin": {
-    "short-video-maker": "dist/index.js"
+    "text-to-video-generator": "dist/index.js"
   },
   "files": [
     "dist",
@@ -42,7 +42,7 @@
     "remotion",
     "faceless video"
   ],
-  "author": "David Gyori",
+  "author": "Hirein Makwana",
   "license": "MIT",
   "dependencies": {
     "@emotion/react": "^11.11.3",

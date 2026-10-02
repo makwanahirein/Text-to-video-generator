@@ -74,7 +74,7 @@ async function main() {
       } catch (error: unknown) {
         logger.fatal(
           error,
-          "The environment is not set up correctly - please follow the instructions in the README.md file https://github.com/gyoridavid/short-video-maker",
+          "The environment is not set up correctly - please follow the instructions in the README.md file",
         );
         process.exit(1);
       }

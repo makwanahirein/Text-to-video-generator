@@ -49,7 +49,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               sx={{ flexGrow: 1, cursor: 'pointer' }}
               onClick={() => navigate('/')}
             >
-              Short Video Maker
+              Text to Video Generator
             </Typography>
             <Button 
               color="inherit" 
@@ -73,7 +73,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           }}
         >
           <Typography variant="body2" color="text.secondary">
-            Short Video Maker &copy; {new Date().getFullYear()}
+            Text to Video Generator &copy; {new Date().getFullYear()}
           </Typography>
         </Box>
       </Box>

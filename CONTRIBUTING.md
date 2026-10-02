@@ -1,13 +1,8 @@
-# Contributing to Shorts Creator
+# Contributing to Text to Video Generator
 
 ## How to setup the development environment
 
-1. Clone the repository
-
-   ```bash
-   git clone git@github.com:gyoridavid/short-video-maker.git
-   cd shorts-video-maker
-   ```
+1. Clone this repository, then enter the project folder.
 
 2. Install dependencies
 
